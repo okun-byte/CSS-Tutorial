@@ -35,15 +35,21 @@ a:hover {
 main {
   text-align: center;
 }
-
 div {
   margin: 10px;
   background-color: #EAD7A4;
   text-align: center;
+  display: inline-block;
+  border: 1px solid #800000 ;
+  width: 320px;
+  height: 360px;
+  box-sizing: border-box;
 }
 
 img {
   margin: 10px 0;
+  width: 300px;
+  height: 300px;
 }
 
 
