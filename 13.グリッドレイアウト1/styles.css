@@ -1,7 +1,24 @@
-.container {
+ .container {
   width: 1200px;
   margin: auto;
   background-color: cadetblue;
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: space-evenly;
+}
+.container{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* align-items: end; */
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 150px;
 }
 
 div div {
